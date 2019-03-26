@@ -54,6 +54,9 @@
                     </div>
                     <input type="submit" formmethod="post" class="btn btn-primary btn-user btn-block">
                 </input>
+                {% if error %}
+                <a>{{error}}</a>
+                {%endif%}
                   </form>
                   <hr>
                   <div class="text-center">
